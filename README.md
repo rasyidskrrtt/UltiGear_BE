@@ -9,13 +9,13 @@ Ikuti langkah-langkah berikut untuk menjalankan aplikasi ini di lokal:
 ### 1. Clone Repository
 Clone repository ini ke komputer Anda menggunakan perintah berikut:
 
-git clone <repository-url>
-cd <nama-folder-repository>
+1. git clone <repository-url> 
+cd <nama-folder-repository> </br>
 2. Instalasi Dependencies
 Pastikan Anda berada di direktori root proyek, lalu jalankan perintah berikut untuk menginstal dependencies:
 
 Salin kode
-npm install
+"npm install" </br>
 3. Seed Data Admin
 Untuk membuat akun admin awal, jalankan perintah berikut:
 
