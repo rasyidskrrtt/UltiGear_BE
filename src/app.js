@@ -17,6 +17,11 @@ app.use(express.json());
 app.use("/api", routes);
 app.use("/uploads", express.static("uploads"));
 
+// Health check endpoint
+app.get("/health", (req, res) => {
+  res.json({ status: "OK" });
+});
+
 app.use(errorHandler);
 
 app.listen(port, () => {
